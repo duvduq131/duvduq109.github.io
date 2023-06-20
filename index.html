@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">    
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/10550/10550975.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <title>THE PET STORE</title>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main header.css">
+    <link rel="stylesheet" href="css/phone.css">
+
+</head>
+<body>
+
+    <!-- /////////////  HEADER  /////////////////////////////////////// -->
+    <header class="header">
+        <a href="#"><h2 data-text="&nbsp; ♠ 𝓟𝓔𝓣_𝓢𝓣𝓞𝓡𝓔 ♣ &nbsp;">&nbsp; ♠ 𝓟𝓔𝓣_𝓢𝓣𝓞𝓡𝓔 ♣ &nbsp;</h2></a>
+        <div class="header-search">
+        </div>
+        <div class="header-btn">
+            <label for="nav-pc-input" href="#" id="menu" class="menu"><i class="ri-menu-fold-line"></i></label>
+            
+            <input type="checkbox"  hidden  name="" class="nav-input"   id="nav-pc-input">
+            <label for="nav-pc-input" class="nav-overlay"></label>
+
+            <nav class="nav-pc">
+                <label for="nav-pc-input" class="nav-close"><i class="ri-close-line"></i></label>
+                <ul class="nav-list">
+                    <br>
+                    <li><a href="index.html" class="nav-link"><i class="ri-home-3-line"></i>&nbsp;&nbsp;                                 Home page</a></li><br>
+                    <li><a href="cart.html" class="nav-link"><i class="ri-shopping-cart-line"></i>&nbsp;&nbsp;<!-- Giỏ hàng-->           Cart</a></li><br>
+                    <li><a href="message.html" class="nav-link"><i class="ri-mail-add-line"></i>&nbsp;&nbsp;                <!--Tin nhắn-->           Message</a></li><br>
+                    <li><a href="notification.html" class="nav-link"><i class="ri-notification-3-line"></i>&nbsp;&nbsp;<!--Thông báo-->  Notification</a></li><br>
+                    <li><a href="log in.html" class="nav-link"><i class="fa-regular fa-user"></i>&nbsp;&nbsp;        <!--Đăng xuất-->    Log out</a></li><br>
+                </ul>
+            </nav>
+        </div>
+
+
+    </header>
+    <div class="container-title">
+        <div class="title">
+            <div class="title-1">THE</div>
+            <div class="title-2">PET</div>
+            <div class="title-3">STO<b id="title-3">RE</b></div>
+        </div>
+        <div class="container-banner-icon">
+            <div class="banner-icon">
+            <div class="face slide">cat<img src="https://cdn-icons-png.flaticon.com/512/2865/2865755.png"></div>
+            <div class="face slide">dog</div>
+            <div class="face slide"><img src="https://cdn-icons-png.flaticon.com/512/3013/3013391.png">parrot</div>
+            <div class="face slide">turtle</div>
+            <div class="face slide">hamster</div>
+            <div class="face slide">g<img src="https://cdn-icons-png.flaticon.com/512/646/646601.png">ldfish</div>
+            <div class="face slide"><img src="https://cdn-icons-png.flaticon.com/512/21/21942.png">gecko<img src="https://cdn-icons-png.flaticon.com/512/21/21942.png"></div>
+            <div class="face slide">squirrel</div>
+            </div>
+        </div>
+    </div>
+
+<!-- ////////////   SLIDESHOW   ////////////////////////////////// -->
+
+    <div class="container-search">
+        <button id="search-btn-main"><i class="ri-search-line"></i></button>
+        <input type="search" id="search-main"  placeholder="&nbsp;&nbsp; Tìm kiếm...">
+    </div>
+    
+    <p class="quocte">♠ 𝓟𝓮𝓽 𝔀𝓮𝓫𝓼𝓲𝓽𝓮 𝓶𝓪𝓴𝓮𝓼 𝓲𝓽 𝓮𝓪𝓼𝔂 𝓯𝓸𝓻 𝓹𝓮𝓽𝓼 𝓽𝓸 𝓬𝓵𝓲𝓶𝓫 𝔂𝓸𝓾𝓻 𝓱𝓮𝓪𝓭 ♣</p>
+
+    <div class="container-slide-type">
+      
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide"  id="card-swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+    
+                            <div class="card-image">
+                                <img src="images/home.png" alt="" class="card-img">
+                            </div>
+                        </div>
+    
+                        <div class="card-content">
+                            <h2 class="name">ᕼOᗰE</h2>
+                        </div>
+
+                    </div>
+                    <div class="card swiper-slide"  id="card-swiper-slide">
+                        <a  href="cat.html">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+        
+                                <div class="card-image">
+                                    <img src="images/cat.png" alt="" class="card-img">
+                                </div>
+                            </div>
+        
+                            <div class="card-content">
+                                <h2 class="name">ᑕᗩT</h2>
+                            </div>
+
+                        </a>
+                    </div>
+                    <div class="card swiper-slide"  id="card-swiper-slide">
+                        <a href="dog.html">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/dog.png" alt="" class="card-img">
+                                </div>
+                            </div>
+        
+                            <div class="card-content">
+                                <h2 class="name">ᗪOG</h2>
+                            </div>
+
+                        </a>
+                    </div>
+                    <div class="card swiper-slide"  id="card-swiper-slide">
+                        <a href="parrot.html">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+        
+                                <div class="card-image">
+                                    <img src="images/parrot.png" alt="" class="card-img">
+                                </div>
+                            </div>
+        
+                            <div class="card-content">
+                                <h2 class="name">ᑭᗩᖇᖇOT</h2>
+                            </div>
+
+                        </a>
+                    </div>
+                    <div class="card swiper-slide"  id="card-swiper-slide">
+                        <a href="turtle.html">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+        
+                                <div class="card-image">
+                                    <img src="images/turtle.png" alt="" class="card-img">
+                                </div>
+                            </div>
+        
+                            <div class="card-content">
+                                <h2 class="name">TᑌᖇTᒪE</h2>
+                            </div>
+
+                        </a>
+                    </div>
+                    <div class="card swiper-slide"  id="card-swiper-slide">
+                        <a href="fish.html">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+        
+                                <div class="card-image">
+                                    <img src="images/goldfish.png" alt="" class="card-img">
+                                </div>
+                            </div>
+        
+                            <div class="card-content">
+                                <h2 class="name">GOᒪᗪᖴISᕼ</h2>
+                            </div>
+
+                        </a>
+                    </div>
+                    <div class="card swiper-slide"  id="card-swiper-slide">
+                        <a href="mouse.html">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+        
+                                <div class="card-image">
+                                    <img src="images/hamster.png" alt="" class="card-img">
+                                </div>
+                            </div>
+        
+                            <div class="card-content">
+                                <h2 class="name">ᕼᗩᗰSTEᖇ</h2>
+                            </div>
+
+                        </a>
+                    </div>
+                    <div class="card swiper-slide"  id="card-swiper-slide">
+                        <a href="squirrel.html">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+        
+                                <div class="card-image">
+                                    <img src="images/squirrel.png" alt="" class="card-img">
+                                </div>
+                            </div>
+        
+                            <div class="card-content">
+                                <h2 class="name">SᑫᑌIᖇᖇEᒪ</h2>
+                            </div>
+
+                        </a>
+                    </div>
+                    <div class="card swiper-slide"  id="card-swiper-slide">
+                        <a href="food1.html">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+        
+                                <div class="card-image">
+                                    <img src="images/food.png" alt="" class="card-img">
+                                </div>
+                            </div>
+        
+                            <div class="card-content">
+                                <h2 class="name">ᖴOOᗪS</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card swiper-slide"  id="card-swiper-slide">
+                        <a href="toy.html">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+        
+                                <div class="card-image">
+                                    <img src="images/toy.png" alt="" class="card-img">
+                                </div>
+                            </div>
+        
+                            <div class="card-content">
+                                <h2 class="name">TOYS</h2>
+                            </div>
+                        </a>                        
+                    </div>
+                    <div class="card swiper-slide"  id="card-swiper-slide">
+                        <a href="accessories.html">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+        
+                                <div class="card-image">
+                                    <img src="images/accessory.png" alt="" class="card-img">
+                                </div>
+                            </div>
+        
+                            <div class="card-content">
+                                <h2 class="name">ᗩᑕᑕESSOᖇIES</h2>
+                                <!-- PHỤ KIỆN -->
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card swiper-slide"  id="card-swiper-slide">
+                        <a href="goods.html">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+        
+                                <div class="card-image">
+                                    <img src="images/good.png" alt="" class="card-img">
+                                </div>
+                            </div>
+        
+                            <div class="card-content">
+                                <h2 class="name">GOOᗪS</h2>
+                                <!-- ĐỒ DÙNG -->
+                            </div>
+                        </div>
+                        </a>
+                </div>
+            </div>
+    
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    
+
+    </div>
+    
+<!-- //////////////    ICON PHONE    ///////////////////////////////////// -->
+<div class="container">
+    <div id="call-phone" class="call-phone">
+      <div class="call-phone__circle"></div>
+      <div class="call-phone__circle-fill"></div>
+      <div class="call-phone__circle-img">
+        <i class="fa fa-phone icon-phone"></i>   
+      </div>
+    </div>
+</div>
+
+    <!-- ///////////////  ADVANCEMENT  /////////////////////////// -->
+
+    <div class="container-advancement">
+        <div class="advencement">
+            <h1><i class="ri-flashlight-fill"></i>𝙁𝙇𝘼𝙎𝙃 𝙎𝘼𝙇𝙀:</h1>
+        
+            <!-- /////////  ĐỒNG HỒ ĐẾM NGƯỢC   ///////////////////////// -->
+
+            <div class="countdown" id="countdown"></div>
+
+
+        </div>
+        <div class="advancement-item">
+            <img src="images/sale1.jpg">
+            <div class="item-content">
+                <!-- <label>Đệm ấm cho chó mèo có thể tháo rời tặng kèm gối nằm（Xám ）</label><br><br> -->
+                <label>Detachable warm mattress for cats and dogs with pillow Gray ）</label><br>
+                <b id="old-price">$ 5.99</b>
+                <i id="per-price">Buy 5 & 3% off</i><br>
+                <b id="new-price">$ 4.99</b><br>
+                <b id="cmt">1.1k cmt &nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp; 1.02k rate</b><br>
+                <b id="rate">★★★★★</b>
+            </div>
+        </div>
+
+        <div class="advancement-item">
+            <img src="images/sale2.jpg">
+            <div class="item-content">
+                <!-- <label>Nhà đệm cho thú cưng cao cấp có thể tháo rời gấp gọn, làm sạch dễ dàng – Ổ cho chó mèo nhiều màu săc cực xinh</label><br><br> -->
+                <label>Detachable, easy-cleaning, high-class pet mattress house – beautiful colorful dog and cat litter</label><br>
+                <b id="old-price">$ 7.99</b>
+                <i id="per-price">Buy 2 & 4% off</i><br>
+                <b id="new-price">$ 6.94</b><br>
+                <b id="cmt">536k cmt &nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp; 544k rate</b><br>
+                <b id="rate">★★★★★</b>
+            </div>
+        </div>
+
+    </div>
+
+
+<!-- ////////  MAIN  ////////////////////////////////////////////////// -->
+
+
+    <div class="container-main">
+        <div class="panel-category">
+            <input id="see" type="checkbox">
+
+            <div class="category-content">
+                <h1 class="category">CAT</h1>
+                <label class="category-infor">Classy and haughty noble cat</label>
+                <!-- Mèo quý tộc sang trọng và kiêu kỳ -->
+                <a id="more" href="cat.html" >➱</a>
+            </div>
+
+            <div class="category-image">
+                <img class="category-img" src="https://i.pinimg.com/564x/09/ff/a8/09ffa8ae26650f6a696c1f3831bcda28.jpg">
+                <img class="category-img" src="https://i.pinimg.com/564x/9d/4d/56/9d4d568a5c914fa0a82815cd2a503b90.jpg">
+                <img class="category-img" src="https://i.pinimg.com/564x/b3/37/cb/b337cb82ed43fdee4a8b6e752e53fdae.jpg">
+                <img class="category-img" src="https://i.pinimg.com/736x/f8/78/b5/f878b5cf371084214978b60d5764f83f.jpg">
+            </div>
+
+            <div class="category-content">
+                <h1 class="category">DOG</h1>
+                <label class="category-infor">Dogs are hyperactive and make your home busier than ever</label>
+                <!-- Những chú chó hiếu động khiến ngôi nhà của bạn trở nên bận rộn hơn bao giờ hết -->
+                <a id="more" href="dog.html" >➱</a>
+            </div>
+
+            <div class="category-image">
+                <img class="category-img" src="https://i.pinimg.com/736x/65/7c/f5/657cf5d5a23e39ee148bba8d8bfdcfe5.jpg">
+                <img class="category-img" src="https://i.pinimg.com/564x/34/f0/04/34f0046ab5d11e47f4cd40101adee2bd.jpg">
+                <img class="category-img" src="https://i.pinimg.com/564x/21/c4/a0/21c4a0f73cc8edb60132c74a2e686383.jpg">
+                <img class="category-img" src="https://i.pinimg.com/564x/33/47/16/3347168a4159ab1d424062fd3a39623c.jpg">
+            </div>
+
+            <div class="category-content">
+                <h1 class="category">PARROT</h1>
+                <label class="category-infor">They are intelligent, clever and talkative</label>
+                <a id="more" href="parrot.html" >➱</a>
+            </div>
+
+            <div class="category-image">
+                <img class="category-img" src="https://i.pinimg.com/564x/66/d7/bb/66d7bb6efac1dff9f84b5224b68ded08.jpg">
+                <img class="category-img" src="https://i.pinimg.com/564x/48/a8/96/48a8963651d50ec0f0a6ef592015849e.jpg">
+                <img class="category-img" src="https://i.pinimg.com/564x/de/42/99/de42994c2f7cf63bf15afbc4fc9a78cb.jpg">
+                <img class="category-img" src="https://i.pinimg.com/736x/8d/66/f9/8d66f9a83f4f1aae5263605a05baea61.jpg">
+            </div>
+
+            <div class="container-see-more">
+                <div class="category-content">
+                    <h1 class="category">TURTLE</h1>
+                    <label class="category-infor">Cool ?</label>
+                    <a id="more" href="turtle.html" >➱</a>
+                </div>
+
+                <div class="category-image">
+                    <img class="category-img" src="https://i.pinimg.com/564x/8c/27/68/8c2768de530d8dc94eaf708c4e71a7c2.jpg">
+                    <img class="category-img" src="https://i.pinimg.com/564x/e5/8a/4e/e58a4e07a32d9fea50be9f9a174ecc5a.jpg">
+                    <img class="category-img" src="https://i.pinimg.com/564x/16/d2/22/16d222f4c23de15e799a57af37aa9e5a.jpg">
+                    <img class="category-img" src="https://i.pinimg.com/564x/66/de/e2/66dee2167929a8326d3f94e394f8c314.jpg">
+                </div>
+
+                <div class="category-content">
+                    <h1 class="category">HAMSTER</h1>
+                    <label class="category-infor">They are easy to raise and cute</label>
+                    <a id="more" href="mouse.html" >➱</a>
+                </div>
+
+                <div class="category-image">
+                    <img class="category-img" src="https://i.pinimg.com/564x/06/9c/6c/069c6c999e69115cd9e333cb0c1bfd40.jpg">
+                    <img class="category-img" src="https://i.pinimg.com/564x/16/5e/1d/165e1dc922181ae538d1a0bf8af8567e.jpg">
+                    <img class="category-img" src="https://i.pinimg.com/564x/9f/30/08/9f300855a9c26f97bec18423052eac4b.jpg">
+                    <img class="category-img" src="https://i.pinimg.com/736x/9a/fe/71/9afe710055de90fb9a15971e454d30ae.jpg">
+                </div>
+
+                <div class="category-content">
+                    <h1 class="category">GOLDFISH</h1>
+                    <label class="category-infor">Oh my god it's scary</label>
+                    <a id="more" href="fish.html" >➱</a>
+                </div>
+
+                <div class="category-image">
+                    <img class="category-img" src="https://i.pinimg.com/564x/9d/93/f5/9d93f5d3ad9d45315d97b636c89bb4c6.jpg">
+                    <img class="category-img" src="https://i.pinimg.com/736x/03/c3/8f/03c38f8e3ce028ae8c79a6f3d5b7f9f7.jpg">
+                    <img class="category-img" src="https://i.pinimg.com/564x/49/e8/65/49e8652c77844310b82405e7094a9a51.jpg">
+                    <img class="category-img" src="https://i.pinimg.com/564x/25/e3/df/25e3df7d101f0528bfeffbbd7076de13.jpg">
+                </div>
+
+                <div class="category-content">
+                    <h1 class="category">SQUIRREL</h1>
+                    <label class="category-infor">A cosplayer</label>
+                    <a id="more" href="squirrel.html" >➱</a>
+                </div>
+
+                <div class="category-image">
+                    <img class="category-img" src="https://i.pinimg.com/564x/9f/2a/97/9f2a9763c558c2e93a2915665e99d7a9.jpg">
+                    <img class="category-img" src="https://i.pinimg.com/736x/14/8b/92/148b92461e48ed345dd61a57252dba3d.jpg">
+                    <img class="category-img" src="https://i.pinimg.com/564x/61/4d/4f/614d4f0bfde2edb45682ac1791bf57bb.jpg">
+                    <img class="category-img" src="https://i.pinimg.com/564x/95/69/a2/9569a24aa31101c1bcd0293d5adc7da2.jpg">
+                </div>
+
+                <label for="see"    id="see-less">See less </label>
+            </div>
+
+            <label for="see"    id="see-more">See more</label>
+        </div>
+    </div>
+
+  <!-- /////////  CONTACT US  /////////////////////////// -->
+    
+<div class="container-contact">
+    <h1 class="title-contact">Contact Us</h1>
+    <div class="panel-contact">
+        <div class="contact-infor">
+            <input type="text"  id="name"   placeholder="&nbsp; Name"><br>
+            <input type="email"  id="email"   placeholder="&nbsp; Email"><br>
+            <input type="number"  id="number"   placeholder="&nbsp; Number"><br>
+            <textarea id="message"  placeholder="&nbsp;Message"></textarea><br>
+            <button id="btn-contact">Send Message</button>
+        </div>
+        <img id="contact-img" src="https://i.pinimg.com/564x/5b/c4/05/5bc4057fc2ffcca84416685d5cea357f.jpg"><br>
+    </div>
+</div>
+
+<!-- ///////////  RATE  ////////////////////////// -->
+<div class="container-rate">
+    <div class="title-rate">
+      <h1>How many stars will you give us?</h1>
+    </div>
+    <div class="stars">
+        <form action="">
+        <input class="star star-5" id="star-5" type="radio" name="star"/>
+        <label class="star star-5" for="star-5"></label>
+        <input class="star star-4" id="star-4" type="radio" name="star"/>
+        <label class="star star-4" for="star-4"></label>
+        <input class="star star-3" id="star-3" type="radio" name="star"/>
+        <label class="star star-3" for="star-3"></label>
+        <input class="star star-2" id="star-2" type="radio" name="star"/>
+        <label class="star star-2" for="star-2"></label>
+        <input class="star star-1" id="star-1" type="radio" name="star"/>
+        <label class="star star-1" for="star-1"></label>
+        </form>
+    </div>
+      <p>click the stars</p>
+</div>
+
+<!-- ////////////////   FOOTER   ////////////////////////////////// -->
+
+
+<footer>
+    <div class="footer-left">
+        <b>About blog</b><br>
+        <u>If you have any questions, feel free to contact us...</u><br><br><br>
+        <img src="https://cdn-icons-png.flaticon.com/512/3677/3677211.png">
+        <img src="https://cdn-icons-png.flaticon.com/512/725/725278.png">
+        <img src="https://cdn-icons-png.flaticon.com/512/2875/2875394.png">
+        <img src="https://cdn-icons-png.flaticon.com/512/2335/2335279.png">
+    </div>
+    <div class="footer-center">
+        <br>
+        <b>SIGN UP FOR OFFERS</b><br><br>
+        <u>Sign up for your email <br> to get the fastest promotion <br> updates from PET_STORE <br> pet shop.</u>
+    </div>
+    <div class="footer-right">
+      
+        <div>
+            <img id="ava" src="https://i.pinimg.com/564x/01/b2/86/01b286554c4a16f9e9d67d432dc95e8d.jpg"><br>
+            <label>Bui Duc Dung</label>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+<!-- Swiper JS -->
+<script src="js/swiper-bundle.min.js"></script>
+
+<!-- JavaScript -->
+<script src="js/script.js"></script>
+
+<!-- HEADER -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script>
+    document.addEventListener("scroll", function(event) {
+        document.querySelector(".header").classList.add("header-shadow");
+        var scrollTop     = $(window).scrollTop(),
+            elementOffset = $('.title').offset().top,
+            distance      = (elementOffset - scrollTop);
+    
+        // console.log(distance);
+        if (distance >= 129) {
+            document.querySelector(".header").classList.remove("header-shadow");
+        };
+    })
+</script>
+
+<!-- CLOCK -->
+
+<script src="js/clock.js"></script>
+
+
+
+
+</html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE PET STORE ~ ORDERS</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/10550/10550975.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main header.css">
+    <link rel="stylesheet" href="css/orders.css">
+
+</head>
+<body>
+    <!-- /////////////  HEADER  /////////////////////////////////////// -->
+    <header class="header">
+        <a href="index.html"><h2 data-text="&nbsp; ♠ 𝓟𝓔𝓣_𝓢𝓣𝓞𝓡𝓔 ♣ &nbsp;">&nbsp; ♠ 𝓟𝓔𝓣_𝓢𝓣𝓞𝓡𝓔 ♣ &nbsp;</h2></a>
+        <div class="header-search">
+        </div>
+        <div class="header-btn">
+            <label for="nav-pc-input" href="#" id="menu" class="menu"><i class="ri-menu-fold-line"></i></label>
+            
+            <input type="checkbox"  hidden  name="" class="nav-input"   id="nav-pc-input">
+            <label for="nav-pc-input" class="nav-overlay"></label>
+
+            <nav class="nav-pc">
+                <label for="nav-pc-input" class="nav-close"><i class="ri-close-line"></i></label>
+                <ul class="nav-list">
+                    <br>
+                    <li><a href="index.html" class="nav-link"><i class="ri-home-3-line"></i>&nbsp;&nbsp;                                 Home page</a></li><br>
+                    <li><a href="cart.html" class="nav-link"><i class="ri-shopping-cart-line"></i>&nbsp;&nbsp;<!-- Giỏ hàng-->           Cart</a></li><br>
+                    <li><a href="message.html" class="nav-link"><i class="ri-mail-add-line"></i>&nbsp;&nbsp;                <!--Tin nhắn-->           Message</a></li><br>
+                    <li><a href="notification.html" class="nav-link"><i class="ri-notification-3-line"></i>&nbsp;&nbsp;<!--Thông báo-->  Notification</a></li><br>
+                    <li><a href="log in.html" class="nav-link"><i class="fa-regular fa-user"></i>&nbsp;&nbsp;        <!--Đăng xuất-->    Log out</a></li><br>
+                </ul>
+            </nav>
+        </div>
+
+
+    </header>
+    <div class="container-title">
+        <div class="title">
+            <div class="title-1">THE</div>
+            <div class="title-2">PET</div>
+            <div class="title-3">STO<b id="title-3">RE</b></div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__column-2 grid__column-2p">
+                    <div class="column-2-top">
+                        <div class="top-ava" style="background-image: url(https://scontent.cdninstagram.com/v/t51.2885-19/346251782_200993646111614_2998483544173725878_n.jpg?stp=dst-jpg_s100x100&amp;_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=3rWlliBlwRYAX_fWAGi&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_ht=scontent.cdninstagram.com&amp;oh=00_AfDuVhzQGegWz68xz5eoC4FTf1_flC44Zg-xeR_EbIXPeQ&amp;oe=64994390);"></div>
+                        <div class="top-in4">
+                            <span class="nickname">Admin</span>
+                            <div class="edit-in4">                            
+                                <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" style="margin-right: 4px;"><path d="M8.54 0L6.987 1.56l3.46 3.48L12 3.48M0 8.52l.073 3.428L3.46 12l6.21-6.18-3.46-3.48" fill="#9B9B9B" fill-rule="evenodd"></path></svg>
+                                <span class="edit-in4-span">
+                                    Rewrite
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-2-mid">
+                        <nav class="category">
+                            <ul class="category-list">
+                                <li class="category-item category-item-active">
+                                    <a href="index.html" class="category-item__link">
+                                        <i class="category-icon ri-home-3-line"></i>
+                                        <span class="category-span">Home page</span>
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="cart.html" class="category-item__link">
+                                        <i class="category-icon ri-shopping-cart-line"></i>
+                                        <span class="category-span">Cart</span>
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">
+                                        <i class="category-icon ri-archive-line"></i>
+                                        <span class="category-span">Orders</span>
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="message.html" class="category-item__link">
+                                        <i class="category-icon ri-mail-unread-line"></i>
+                                        <span class="category-span">Message</span>
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="notification.html" class="category-item__link">
+                                        <i class="category-icon ri-notification-3-line"></i>
+                                        <span class="category-span">Notification</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="grid__column-10 grid__column-10p">
+                    <div class="column10_pp">
+                        <div class="col10_header">
+                            <div class="col10_header-element">
+                                <span class="col10_header-title">
+                                    All
+                                </span>
+                            </div>
+                            <div class="col10_header-element">
+                                <span class="col10_header-title">
+                                    Wait for pay
+                                </span>
+                            </div>
+                            <div class="col10_header-element">
+                                <span class="col10_header-title">
+                                    Ship
+                                </span>
+                            </div>
+                            <div class="col10_header-element">
+                                <span class="col10_header-title active">
+                                    Delivering (1)  <!--Đang giao-->
+                                </span>
+                            </div>
+                            <div class="col10_header-element">
+                                <span class="col10_header-title">
+                                    Complete
+                                </span>
+                            </div>
+                            <div class="col10_header-element">
+                                <span class="col10_header-title">
+                                    Cancelled
+                                </span>
+                            </div>
+                            <div class="col10_header-element">
+                                <span class="col10_header-title">
+                                    Refuse  <!--hoàn hàng-->
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col10_pp_main">
+                            <div class="col10_main">
+                                <div class="col10_main-header-head">
+                                    <div class="main-head-right">
+                                        <span class="main-head-right-span">PET STORE - The pet store</span>
+                                    </div>
+                                    <div class="main-head-left">
+                                        <div class="main-head-left-1">
+                                            <i class="head-icon fa-sharp fa-solid fa-cart-plus"></i>
+                                            <span class="head-left-1-span">Your order is on its way to you </span>
+                                        </div>
+                                        <div class="main-head-left-2">
+                                                <span class="head-left-2-span">Delivering  <!--Đang giao--></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col10_main-center">
+                                    <div class="col10_main-center-element">
+                                        <div class="col10_main-center-element-right">
+                                            <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/7ff318a7a8cbcccd99c7e8af16b7e481);"></div>
+                                            <div class="main-right-element-in4">
+                                                <div class="main-right-element-name">
+                                                    <span class="main-right-element-name-span">
+                                                        Real wooden stand for parrot bird training 
+                                                    </span>
+                                                </div>
+                                                <div class="main-right-element-type">
+                                                    <span class="main-right-element-type-sapn">
+                                                        Row Classification : ACCESSORIES   <!--Loại hàng: Phụ kiện-->
+                                                    </span>
+                                                </div>
+                                                <div class="main-right-element-type">
+                                                    <span class="main-right-element-type-sapn">
+                                                        Quantity : x1       <!--Số lượng: x1 -->
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main-center-element-left">
+                                            <span class="cost">₫220.500</span>
+                                        </div>
+                                    </div>
+                                    <div class="col10_main-center-element">
+                                        <div class="col10_main-center-element-right">
+                                            <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/c49eb4916c41e87bd19bb9863f1a1013);"></div>
+                                            <div class="main-right-element-in4">
+                                                <div class="main-right-element-name">
+                                                    <span class="main-right-element-name-span">
+                                                        Built-in bird bath hanging toys parrot bird cages 
+                                                    </span>
+                                                </div>
+                                                <div class="main-right-element-type">
+                                                    <span class="main-right-element-type-sapn">
+                                                        Row Classification : ACCESSORIES   <!--Loại hàng: Phụ kiện-->
+                                                    </span>
+                                                </div>
+                                                <div class="main-right-element-type">
+                                                    <span class="main-right-element-type-sapn">
+                                                        Quantity : x3       <!--Số lượng: x3 -->
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main-center-element-left">
+                                            <span class="cost">₫220.500</span>
+                                        </div>
+                                    </div>
+                                    <div class="col10_main-center-element">
+                                        <div class="col10_main-center-element-right">
+                                            <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/19292cbbfa53421f7abae7bcb3711900);"></div>
+                                            <div class="main-right-element-in4">
+                                                <div class="main-right-element-name">
+                                                    <span class="main-right-element-name-span">
+                                                        Set 3 rope ladder toys hanging cages parrot/squirrel/hamster                                                    </span>
+                                                </div>
+                                                <div class="main-right-element-type">
+                                                    <span class="main-right-element-type-sapn">
+                                                        Row Classification : TOYS   <!--Loại hàng: đồ chơi-->
+                                                    </span>
+                                                </div>
+                                                <div class="main-right-element-type">
+                                                    <span class="main-right-element-type-sapn">
+                                                        Quantity : x1       <!--Số lượng: x1 -->
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main-center-element-left">
+                                            <span class="cost">₫220.500</span>
+                                        </div>
+                                    </div>
+                                    <div class="col10_main-center-element">
+                                        <div class="col10_main-center-element-right">
+                                            <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/sg-11134201-23020-n0h36ugzchnvaf);"></div>
+                                            <div class="main-right-element-in4">
+                                                <div class="main-right-element-name">
+                                                    <span class="main-right-element-name-span">
+                                                        Funny Toy Swing for Hamsters                                                    </span>
+                                                </div>
+                                                <div class="main-right-element-type">
+                                                    <span class="main-right-element-type-sapn">
+                                                        Row Classification : TOYS   <!--Loại hàng: đồ chơi-->
+                                                    </span>
+                                                </div>
+                                                <div class="main-right-element-type">
+                                                    <span class="main-right-element-type-sapn">
+                                                        Quantity : x1       <!--Số lượng: x1 -->
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main-center-element-left">
+                                            <span class="cost">₫220.500</span>
+                                        </div>
+                                    </div>
+                                    <div class="col10_main-center-element">
+                                        <div class="col10_main-center-element-right">
+                                            <div class="main-right-ava" style="background-image: url(https://i.pinimg.com/564x/ea/aa/26/eaaa2672b896b6d7405e757b878ada03.jpg);"></div>
+                                            <div class="main-right-element-in4">
+                                                <div class="main-right-element-name">
+                                                    <span class="main-right-element-name-span">
+                                                        Kakariki parrot  
+                                                    </span>
+                                                </div>
+                                                <div class="main-right-element-type">
+                                                    <span class="main-right-element-type-sapn">
+                                                        Row Classification : PARROT   <!--Loại hàng: vẹt-->
+                                                    </span>
+                                                </div>
+                                                <div class="main-right-element-type">
+                                                    <span class="main-right-element-type-sapn">
+                                                        Quantity : x1       <!--Số lượng: x1 -->
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main-center-element-left">
+                                            <span class="cost">₫550.500</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col10_main_total_cost">
+                                    <div class="main_total_cost">
+                                        <span class="main_total_cost-tt">
+                                            Into money :    <!--Thành tiền-->
+                                        </span>
+                                        <span class="main_total_cost-span">
+                                            ₫1.432.500
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col10_main_footer">
+                                    <div class="col10_main_footer-1">
+                                        <span class="col10_main_footer-1-span">
+                                            Please only press "Item received" when the order has been delivered to you and the product received without problems.                                        </span>
+                                    </div>
+                                    <div class="col10_main_footer-2">
+                                        <div class="col10_main_footer-2-1">
+                                            <btn class="btn-1">
+                                                Has received the goods  <!--Đã nhận hàng-->
+                                            </btn>
+                                        </div>
+                                        <div class="col10_main_footer-2-1">
+                                            <btn class="btn-1">
+                                                Refund  <!--Hoàn tiền-->
+                                            </btn>
+                                        </div>
+                                        <div class="col10_main_footer-2-1">
+                                            <btn class="btn-1">
+                                                Contact seller      <!--Liên hệ người bán-->
+                                            </btn>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- ///////////////////   FOOTER //////////////////////////////////////////-->
+<footer>
+    <div class="footer-left">
+        <b>About blog</b><br>
+        <u>If you have any questions, feel free to contact us...</u><br><br><br>
+        <img src="https://cdn-icons-png.flaticon.com/512/3677/3677211.png">
+        <img src="https://cdn-icons-png.flaticon.com/512/725/725278.png">
+        <img src="https://cdn-icons-png.flaticon.com/512/2875/2875394.png">
+        <img src="https://cdn-icons-png.flaticon.com/512/2335/2335279.png">
+    </div>
+    <div class="footer-center">
+        <br>
+        <b>SIGN UP FOR OFFERS</b><br><br>
+        <u>Sign up for your email <br> to get the fastest promotion <br> updates from PET_STORE <br> pet shop.</u>
+    </div>
+    <div class="footer-right">
+        <div>
+            <img id="ava" src="https://i.pinimg.com/564x/1c/ce/a5/1ccea509c2163d00fbe35e16a38cd208.jpg"><br>
+            <label>Tran Nguyen Ngoc Tram</label>
+        </div>
+        <div>
+            <img id="ava" src="https://i.pinimg.com/564x/01/b2/86/01b286554c4a16f9e9d67d432dc95e8d.jpg"><br>
+            <label>Ho Xuan Toan</label>
+        </div>
+    </div>
+</footer>
+
+    <!-- HEADER -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script>
+        document.addEventListener("scroll", function(event) {
+            document.querySelector(".header").classList.add("header-shadow");
+            var scrollTop     = $(window).scrollTop(),
+                elementOffset = $('.title').offset().top,
+                distance      = (elementOffset - scrollTop);
+        
+            // console.log(distance);
+            if (distance >= 29) {
+                document.querySelector(".header").classList.remove("header-shadow");
+            };
+        })
+    </script>
+</body>
+</html>
+

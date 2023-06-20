@@ -1,0 +1,41 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+ol, ul{
+	padding: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+u{
+	font-size: 15px;
+}
+
+.container-chat{
+	display: flex;
+}
+/*ChatBot*/
+.chat_box{
+    /* độ lớn của khung chat */
+	width: 350px;
+	height: 80vh;
+	bottom: 10px;
+	right: 30px;
+	background:#c4cdb9;
+	z-index: 2;
+	position: fixed;
+	display: none;
+	border: 2px solid #000;
+}
+#messages{
+	padding: 20px;
+}
+.my-conv-form-wrapper textarea{
+	height: 30px;
+	overflow: hidden;
+	resize: none;
+}
+.hidden{
+	display: none !important;
+}
